@@ -46,6 +46,10 @@ class RiftItem {
     private int spellCriticalHit;
     private int critPowerRating;
 
+    public RiftItem() {
+
+    }
+
     public int getSpellDamage() {
         return spellDamage;
     }
