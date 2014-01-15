@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * Date: 1/14/14
  * Time: 10:35 AM
  */
-class RiftItem {
+public class RiftItem {
 
     private String itemKey;
     private String name;

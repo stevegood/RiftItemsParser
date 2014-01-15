@@ -10,7 +10,7 @@ import java.util.ArrayList;
  * Date: 1/14/14
  * Time: 10:11 AM
  */
-class RiftItemHandler extends DefaultHandler {
+public class RiftItemHandler extends DefaultHandler {
     private ArrayList<RiftItem> items;
     private boolean excludeConsumables = true;
     private RiftItem riftItem;

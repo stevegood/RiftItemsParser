@@ -14,13 +14,13 @@ import java.util.ArrayList;
  * Date: 1/9/14
  * Time: 11:23 AM
  */
-class RiftItemSlurper {
+public class RiftItemSlurper {
 
-    static ArrayList<RiftItem> parse(File file) throws IOException, SAXException, ParserConfigurationException {
+    public static ArrayList<RiftItem> parse(File file) throws IOException, SAXException, ParserConfigurationException {
         return parse(file, true);
     }
 
-    static ArrayList<RiftItem> parse(File file, boolean excludeConsumables) throws IOException, SAXException, ParserConfigurationException {
+    public static ArrayList<RiftItem> parse(File file, boolean excludeConsumables) throws IOException, SAXException, ParserConfigurationException {
         SAXParser parser = SAXParserFactory.newInstance().newSAXParser();
         RiftItemHandler handler = new RiftItemHandler();
         handler.setExcludeConsumables(excludeConsumables);
