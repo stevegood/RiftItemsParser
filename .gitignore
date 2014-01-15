@@ -222,3 +222,7 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+
+# The giant Items.xml database should stay out of the repo.
+Items.xml
